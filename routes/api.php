@@ -14,7 +14,9 @@ use App\Http\Controllers\MessageController;
 | use App\Http\Controllers\MessageController;
 |
 */
+
 Route::post('/users', [UserController::class, 'createUser']);
+Route::get('/users', [UserController::class, 'index']);
 Route::put('/users/{id}', [UserController::class, 'updateUser']);
 Route::delete('/users/{id}', [UserController::class, 'deleteUser']);
 

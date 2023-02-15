@@ -1,0 +1,32 @@
+{
+    "name": "Mi API test-fortesza",
+    "version": "1.0.0",
+    "description": "API Rest para la librería",
+    "title": "Documentación de la API Rest de la librería",
+    "url": "localhost:8000/api",
+    "sampleUrl": "localhost:8000",
+    "header": {
+      "title": "API Rest para mensajeria entre usuarios de una aplicacion de servicios",
+      "filename": "header.md"
+    },
+    "footer": {
+      "title": "Finalidad de la API Rest es integrar muchos usuarios en un chat donde incluso se puede enviar archivos adjuntos",
+      "filename": "footer.md"
+    },
+    "template": {
+      "forceLanguage": "es"
+    },
+    "exclude": [
+      "vendor/"
+    ],
+    "routes": {
+      "include": [
+        "app/Http/Controllers/*",
+        "app/Models/*",
+        "database/seeders/*",
+        "database/factories/*",
+        "routes/api.php"
+      ]
+    }
+  }
+  
