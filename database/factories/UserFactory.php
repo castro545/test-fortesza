@@ -5,19 +5,14 @@ namespace Database\Factories;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Support\Str;
 use Faker\Generator as Faker;
-/**
- * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\User>
- */
+
 class UserFactory extends Factory
 {
     /**
-     * Define the model's default state.
-     *
-     * @return array<string, mixed>
+     * El método definition() se encarga de devolver una matriz de valores predeterminados
+     * para los atributos del modelo. Dentro de este método, se utiliza la librería Faker 
+     * para generar datos falsos para cada atributo
      */
-
-     
-
     public function definition()
     {
         return [

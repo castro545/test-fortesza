@@ -9,12 +9,12 @@ use Illuminate\Database\Eloquent\Model;
 class Message extends Model
 {
     /**
-     * The attributes that are mass assignable.
+     * Los atributos que son asignables en su totalidad.
      *
      * @var array
      */
     protected $fillable = [
-        'sender_id', 'receiver_id', 'message', 'sent_at',
+        'sender_id', 'receiver_id', 'message', 'sent_at','attachment',
     ];
 
     /**
